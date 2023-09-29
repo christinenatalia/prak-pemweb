@@ -1,0 +1,108 @@
+<!--by Christine Natalia -121140191 -->
+<!--Praktikum Pemrograman web RB -Tugas 2 -->
+<html lang="id"> <!--ini ciri file html -->
+
+<head>
+    <title>Gabut</title>
+    <style>
+        body {
+            text-align: center; 
+            font-family: sans-serif;
+            background-color: #E5D283;
+        }
+    
+        h1 {
+            color: #213555;
+            font-size: 50px;
+            text-align: center; 
+        }
+    
+        p {
+            text-align: center; 
+        }
+    
+        ul {
+            list-style-type: none; 
+            padding: 0;
+            text-align: center; 
+        }
+    
+        li {
+            margin: 5px 0; 
+            text-align: center; 
+        }
+    
+        img {
+            display: block;
+            margin: 0 auto; 
+        }
+
+        video, audio {
+            display: block;
+            margin: 20px auto; /* Mengatur video dan audio menjadi tengah dan memberikan jarak vertikal */
+            max-width: 100%; /* Maksimum lebar elemen sesuai dengan lebar kontennya */
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="christine.jpg" alt="ini gambar" width="200" height="200" style="border: 2px solid #000; border-radius: 50%;">
+
+    <h1>It's Me, Christine</h1>
+    <p><strong>This is about me!!!!</strong></p>
+    <ul> <!--list tidak berurut-->
+        <li><a href="https://github.com">Kampus saya</a></li>
+        <li><a href="https://if.itera.ac.id">Prodi saya</a></li>
+        <li><a href="https://youtube.com">Kampus saya</a></li>
+    </ul>
+    <p>
+        <li>halo</li>
+        <li>hai</li>
+        <li>euy</li>
+    </p>
+
+    <div style="padding: 10px;">
+        <h2 style="color: #4F709C;">Profil</h2>
+        <p style="font-style: italic; margin-top: 10px;">Saya christine natalia biasanya dipanggil Ittin.Saya merupakan salah satu
+            mahasiswa jurusan Teknik Informatika di Institut Teknologi Sumatera.Sebenarnya saya merasa salah jurusan,mau
+            tidak mau saya harus tetap jalanin dan harus tetap happy kiyowo hehehe</p>
+    </div>
+    <video src="pamungkas.mp4" width="300" controls></video>
+    <audio src="nothings gonna change my love.mp3" controls></audio>
+        <table border="1" style="width: 80%; margin: 0 auto;">
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">posisi</th>
+                <th rowspan="2">perusahaan</th>
+                <th colspan="2">waktu</th>
+            </tr>
+            <tr>
+                <th>mulai</th>
+                <th>selesai</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>andi</td>
+                <td>1</td>
+                <td>andi</td>
+                <td>1</td>
+            </tr>
+        </table>
+        
+        <form action="jawaban.php" method="POST" style="padding: 20px;">
+            <h2>Hubungi saya</h2>
+            <label for="email">email</label> :
+            <input type="text" placeholder="masukkan teks" id="email">
+            <p>Apakah matahari ada 2?</p>
+            <input type="radio" name="soal_b"> Iyah <br>
+            <input type="radio" name="soal_b"> No <br>
+            <h2>Apa itu?</h2>
+            <input type="checkbox" name="a" id="a" value="1"> ini <br>
+            <input type="checkbox" name="a" id="a" value="2"> itu <br>
+            <input type="checkbox" name="a" id="a" value="3"> anu <br>
+            <button type="submit">Kirim</button>
+        </form>
+</body>
+
+</html>
