@@ -1,0 +1,153 @@
+.head {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: rgb(19,32,67);
+    background: linear-gradient(90deg, rgba(19,32,67,0) 0%, rgba(31,65,114,1) 41%, rgba(19,32,67,1) 100%);
+    border-radius: 100px;
+  }
+  
+  .tentang h2 {
+    color: #F1B4BB;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: rgb(19, 32, 67);
+    background: linear-gradient(90deg, rgba(19, 32, 67, 1) 0%, rgba(31, 65, 114, 1) 55%, rgba(19, 32, 67, 1) 100%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(25, 29, 136, 1) 0%, rgba(51, 124, 207, 1) 55%, rgba(25, 29, 136, 1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .gambar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .side {
+    flex: 1;
+  }
+  
+  .navbar {
+    background-color: #F1B4BB;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .menu {
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .menu:hover {
+    color: #ff5733;
+  }
+  
+  .tentang {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffff;
+  }
+  
+  video {
+    width: 30%;
+    max-width: 30%;
+    border-radius: 20px;
+  }
+  
+  .pengalaman {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Mengubah latar belakang dan warna teks pada kelas "form," "tentang," dan "pengalaman" */
+  .form,
+  .tentang,
+  .pengalaman {
+    background: rgb(19, 32, 67);
+    background: linear-gradient(90deg, rgba(19, 32, 67, 1) 0%, rgba(31, 65, 114, 1) 55%, rgba(19, 32, 67, 1) 100%);
+    color: #fff;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    background-color: #1F4172;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #F1B4BB;
+  }
